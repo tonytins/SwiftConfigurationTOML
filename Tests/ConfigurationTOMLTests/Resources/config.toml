@@ -1,0 +1,49 @@
+# Scalars
+string = "Hello"
+int = 42
+double = 3.14
+bool = true
+bytes = "bWFnaWM="
+
+# Date and time literals
+offset_datetime = 2024-01-02T03:04:05Z
+local_datetime = 2024-01-02T03:04:05
+local_date = 2024-01-02
+local_time = 03:04:05
+
+[other]
+string = "Other Hello"
+int = 24
+double = 2.72
+bool = false
+bytes = "bWFnaWMy"
+
+    [other.stringy]
+    array = ["Hello", "Swift"]
+
+    [other.inty]
+    array = [16, 32]
+
+    [other.doubly]
+    array = [0.9, 1.8]
+
+    [other.booly]
+    array = [false, true, true]
+
+    [other.byteChunky]
+    array = ["bWFnaWM=", "bWFnaWMy", "bWFnaWM="]
+
+[stringy]
+array = ["Hello", "World"]
+
+[inty]
+array = [42, 24]
+
+[doubly]
+array = [3.14, 2.72]
+
+[booly]
+array = [true, false]
+
+[byteChunky]
+array = ["bWFnaWM=", "bWFnaWMy"]
